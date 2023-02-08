@@ -24,6 +24,7 @@ public class Demenagement {
             }
             System.out.println("___________________________________________________");
         }
+        System.out.println("EXERCICE DEMENAGEMENT FINIS");
 
     }
 }
