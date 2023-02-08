@@ -22,7 +22,7 @@ public class Demenagement {
                 carton = 0;
                 System.out.println("Il ne reste aucun carton au local");
             }
-            System.out.println("___________________________________________________");
+            System.out.println("__________________________________________________");
         }
         System.out.println("EXERCICE DEMENAGEMENT FINIS");
 
