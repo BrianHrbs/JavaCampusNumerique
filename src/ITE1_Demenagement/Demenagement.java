@@ -11,7 +11,7 @@ public class Demenagement {
     }
 
     public static void main(String[] args) {
-        int carton = 37;
+        int carton = 34;
         int max = 9;
 
         while(carton != 0) {
