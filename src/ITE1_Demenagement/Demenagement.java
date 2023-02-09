@@ -1,4 +1,4 @@
-package Demenagement;
+package ITE1_Demenagement;
 
 public class Demenagement {
 
