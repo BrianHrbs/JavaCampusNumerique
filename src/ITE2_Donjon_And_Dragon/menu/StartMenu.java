@@ -6,7 +6,8 @@ public class StartMenu extends Menu {
 
     @Override
     protected String[] getOptions() {
-        return new String[]{"    ____                                        ___              __   ____                             \n" +
+        return new String[]{
+                "    ____                                        ___              __   ____                             \n" +
                 "   / __ \\__  ______  ____ ____  ____  ____     /   |  ____  ____/ /  / __ \\_________ _____ _____  ____ \n" +
                 "  / / / / / / / __ \\/ __ `/ _ \\/ __ \\/ __ \\   / /| | / __ \\/ __  /  / / / / ___/ __ `/ __ `/ __ \\/ __ \\\n" +
                 " / /_/ / /_/ / / / / /_/ /  __/ /_/ / / / /  / ___ |/ / / / /_/ /  / /_/ / /  / /_/ / /_/ / /_/ / / / /\n" +
@@ -21,7 +22,8 @@ public class StartMenu extends Menu {
             Menu createPerson = new CreatePersonMenu();
             createPerson.displayMenu();
         } else if (choice.equals("x")) {
-            System.out.println(" █████      ██████  ██ ███████ ███    ██ ████████  ██████  ████████     ██ \n" +
+            System.out.println(
+                    " █████      ██████  ██ ███████ ███    ██ ████████  ██████  ████████     ██ \n" +
                     "██   ██     ██   ██ ██ ██      ████   ██    ██    ██    ██    ██        ██ \n" +
                     "███████     ██████  ██ █████   ██ ██  ██    ██    ██    ██    ██        ██ \n" +
                     "██   ██     ██   ██ ██ ██      ██  ██ ██    ██    ██    ██    ██           \n" +

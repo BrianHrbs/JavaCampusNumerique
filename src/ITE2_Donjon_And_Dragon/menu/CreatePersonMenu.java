@@ -8,7 +8,8 @@ public class CreatePersonMenu extends Menu {
 
     @Override
     protected String[] getOptions() {
-        return new String[]{"Choisissez un personnage:", "                    ____ \n" +
+        return new String[]{"Choisissez un personnage:",
+                "                    ____ \n" +
                 "                  .'* *.'\n" +
                 "               __/_*_*(_\n" +
                 "              / _______ \\\n" +
@@ -29,7 +30,7 @@ public class CreatePersonMenu extends Menu {
                 "         .'   /    b    '.  '.\n" +
                 "     _.-'    /     Bb     '-. '-._ \n" +
                 " _.-'       |      BBb       '-.  '-. \n" +
-                "(________mrf\\____.dBBBb.________)____) -----------> Magicien",
+                "(________mrf\\____.dBBBb.________)____) -----------> m pour ----> Magicien",
 
 
                 " /\\\n" +
@@ -55,7 +56,7 @@ public class CreatePersonMenu extends Menu {
                         "           |  ||  |\n" +
                         "           |  ||  |\n" +
                         "          _\\.:||:./_\n" +
-                        "         /____/\\____\\ -----------> Guerrier"};
+                        "         /____/\\____\\ -----------> g pour ----> Guerrier"};
     }
 
     @Override
@@ -67,8 +68,9 @@ public class CreatePersonMenu extends Menu {
             case "m" -> {
                 Personnage magicien = new Magicien();
             }
-            case "x" -> System.out.println(" █████      ██████  ██ ███████ ███    ██ ████████  ██████  ████████     ██ \n" +
-                    "██   ██     ██   ██ ██ ██      ████   ██    ██    ██    ██    ██        ██ \n" +
+            case "x" -> System.out.println(
+                            " █████      ██████  ██ ███████ ███    ██ ████████  ██████  ████████     ██ \n" +
+                            "██   ██     ██   ██ ██ ██      ████   ██    ██    ██    ██    ██        ██ \n" +
                             "███████     ██████  ██ █████   ██ ██  ██    ██    ██    ██    ██        ██ \n" +
                             "██   ██     ██   ██ ██ ██      ██  ██ ██    ██    ██    ██    ██           \n" +
                             "██   ██     ██████  ██ ███████ ██   ████    ██     ██████     ██        ██ ");
