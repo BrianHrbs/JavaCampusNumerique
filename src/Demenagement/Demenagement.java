@@ -1,3 +1,5 @@
+package Demenagement;
+
 public class Demenagement {
 
     int count;
@@ -9,7 +11,7 @@ public class Demenagement {
     }
 
     public static void main(String[] args) {
-        int carton = 3729;
+        int carton = 37;
         int max = 9;
 
         while(carton != 0) {
