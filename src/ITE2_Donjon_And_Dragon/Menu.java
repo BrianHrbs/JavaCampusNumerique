@@ -7,7 +7,6 @@ abstract public class Menu {
     abstract protected String[] getOptions();
 
     public void displayMenu() {
-        System.out.println("q -> Quitter le jeu");
         for (String options : getOptions()) {
             System.out.println(options);
         }
